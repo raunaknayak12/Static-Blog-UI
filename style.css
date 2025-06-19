@@ -1,0 +1,158 @@
+/* === GENERAL STYLES === */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* === LOGO IMAGE === */
+.navbar-brand img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+/* === HEADER SECTION === */
+header {
+  
+  color: white;
+  padding: 2rem 0;
+  margin-bottom: 1rem;
+}
+
+header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 0.95rem;
+}
+
+/* === BLOG CONTENT STYLES === */
+footer.container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+footer p {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+/* === BACK BUTTON === */
+.btn-outline-success,
+.btn-outline-primary {
+  transition: all 0.3s ease;
+}
+
+.btn-outline-success:hover,
+.btn-outline-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* === RESPONSIVE IMAGE === */
+img.img-fluid {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* === NAVIGATION TABS === */
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: #000;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #198754;
+}
+
+/* Sticky Header (optional) */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}
+
+/* Scrollable Footer Section */
+.scrollable-footer {
+  max-height: 70vh;              /* Adjust height if needed */
+  overflow-y: auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Optional: Style scrollbar for WebKit browsers */
+.scrollable-footer::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollable-footer::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 4px;
+}
+
+/* Apply handwriting font to the whole blog text */
+body {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+/* Center form */
+.container-bg {
+  margin-top: 100px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 30px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* Password Incorrect Message */
+.is-invalid {
+  border: 1px solid red;
+}
+
+/* Use normal font (not Dancing Script) for inputs */
+.normal-font {
+  font-family: Arial, sans-serif !important;
+}
+
+/* Optional: Improve spacing for forms */
+form {
+  border: 1px solid #ddd;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Optional: Smooth transitions between views */
+section {
+  transition: all 0.3s ease-in-out;
+}
+
+
+.container {
+        max-width: 500px;
+    }
+
+body {
+  font-family: 'Dancing Script', cursive;
+}
+
+.normal-font {
+  font-family: sans-serif !important;
+}
+
+.auth-box {
+  max-width: 400px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
